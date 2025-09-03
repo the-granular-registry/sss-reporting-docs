@@ -1,41 +1,87 @@
-# Third-Party Attestation Strategy
+# Third-Party Attestation Strategy for the Granular Registry
 
 ## Overview
 
-The Granular Registry is committed to delivering the highest standards of data integrity and transparency. The SSS module is designed to provide reliable, third-party verified estimates of retired RECs and supplier-specific emission factors (SSEFs) for market-based Scope 2 emissions reporting. To ensure our outputs meet rigorous quality criteria under the GHG Protocol and support seamless integration into your sustainability reporting, we are pursuing a comprehensive attestation strategy. This roadmap outlines our planned third-party assurances, aligning with evolving standards for granular and hourly-matched energy attribute tracking as of mid-2025.
+The Granular Registry, owned and operated by Clean Incentive, is dedicated to providing high-integrity, transparent data for Scope 2 emissions reporting. Our SSS module delivers reliable, third-party verified estimates of retired Renewable Energy Certificates (RECs) and supplier-specific emission factors (SSEFs) for market-based GHG Protocol reporting. To ensure our outputs meet the highest quality standards and support seamless integration into your sustainability efforts, we are implementing a robust attestation strategy. This document outlines our approach to independent verification of methodologies, data processes, and calculations, aligned with evolving standards for granular and hourly-matched energy attributes as of mid-2025.
 
-Our approach emphasizes independent verification of our methodology, data collection processes, and calculation workflows. By obtaining these attestations, you can confidently reference Granular Registry reports in your audits, reducing the need for additional internal validations and enhancing the credibility of your carbon accounting claims.
+Our strategy focuses on building trust through phased third-party assurances, enabling users to confidently use our reports in audits and reduce internal validation burdens.
+
+## Key Concepts in Attestation
+
+### Audit-Level Rigor in GHG Scope 2 Reporting
+Audit-level rigor involves systematic, independent verification to ensure the accuracy, completeness, and reliability of Scope 2 emissions data. It exceeds basic data gathering by confirming that emissions claims are free from material misstatements and align with GHG Protocol principles (relevance, completeness, consistency, transparency, and accuracy). This typically includes third-party assurance, ranging from limited (process reviews) to reasonable (full data testing similar to financial audits).
+
+Key elements:
+- **Data Verification and Testing**: Examination of source data (e.g., utility records, emission factors) via sampling, recalculation, and cross-checks against sources like EPA eGRID.
+- **Process and Internal Controls Review**: Assessment of inventory systems to prevent errors or fraud.
+- **Third-Party Independence**: Verifiers follow standards like ISO 14064-3 or AA1000AS.
+- **Documentation and Traceability**: Full audit trails to address risks like double-counting.
+- **Materiality Assessment**: Testing against thresholds (e.g., 5% of emissions).
+
+While not mandatory, this rigor is essential for credible reporting under frameworks like SBTi or RE100.
+
+### Exclusive Ownership Attestation
+This process ensures emission attributes (e.g., zero-emission claims from renewables) are uniquely assigned to one entity, preventing double-counting. It confirms attributes are retired exclusively for the reporting entity.
+
+Core aspects:
+- **Attestation Mechanisms**: Supplier declarations, third-party audits, or registry confirmations.
+- **No Double-Counting Assurance**: Evidence that attributes are not claimed elsewhere.
+- **Implications for Claims**: Essential for valid market-based claims, linking to criteria like temporal matching.
 
 ## Attestation Roadmap
 
-We are actively working toward the following milestones to attest the SSS module's processes and outputs. This phased plan establishes foundational controls and progresses to specialized GHG-focused assurances, with initial attestations targeted for completion by the end of Q4 2025.
+We are pursuing the following milestones to attest our SSS module, starting with foundational controls and advancing to GHG-specific assurances. Initial completions are targeted for Q4 2025.
 
-### **SOC 2 Type II Report (Target: Q4 2025)**
+### SOC 2 Type II Report (Target: Q4 2025)
+An independent audit evaluating controls for security, availability, integrity, confidentiality, and privacy, covering:
+- Data sourcing from public and regulatory sources (e.g., EIA forms, RPS reports).
+- Estimation workflows for RECs and SSEFs, including pro-rata allocations.
+- Measures to prevent double-counting and ensure accuracy.
 
-This attestation, conducted by an independent auditor, will evaluate our system and organization controls for security, availability, processing integrity, confidentiality, and privacy. The SSS module it will cover:
+### ISAE 3000/3410 Assurance Engagement (Target: Q1 2026)
+Tailored assurance for non-financial data like GHG emissions, providing limited or reasonable assurance on:
+- Compliance with GHG Protocol Scope 2 Guidance.
+- Accuracy of SSS processes, such as non-bypassable charges and hourly proxies.
+- Sample verifications of outputs like SSEFs and time-stamped RECs.
 
-* Data sourcing from public and regulatory sources (e.g., EIA forms, RPS compliance reports, and certificate-tracking systems).
-* Estimation workflows for REC volumes and SSEFs, including pro-rata allocations based on retail sales.
-* Quality assurance measures are implemented to prevent double-counting and ensure data accuracy.
-* A Type II report provides evidence of effective controls over a sustained period, offering you assurance that our platform operates reliably and securely.
-
-### **ISAE 3000/3410 Assurance Engagement (Target: Q1 2026)**
-
-Building on the SOC 2 foundation, we will seek assurance under the International Standard on Assurance Engagements (ISAE) 3000/3410, which is tailored for non-financial information, such as GHG emissions data. This will provide limited or reasonable assurance on:
-
-* Compliance with GHG Protocol Scope 2 Guidance, including quality criteria for market-based claims (e.g., auditability, representativeness, and alignment with residual mix factors).
-* The accuracy of SSS-specific processes, such as quantifying non-bypassable charges, customer-funded resources, and optional hourly proxies for tracking carbon-free energy on an hourly basis.
-* Sample verifications of outputs, like SSEFs and time-stamped REC allocations, to confirm they reflect real-world utility data.
-* This GHG-specific attestation will be performed by an accredited verifier, ensuring our module supports precise, defensible Scope 2 reporting.
-
-### **Ongoing GHG Protocol Alignment and Enhancements (Annual Reviews Starting 2026)**
-
-We will integrate feedback from the World Resources Institute (WRI) and updates to the GHG Protocol, including drafts for granular certificates. Annual reviews will update our attestations to incorporate policy changes (e.g., new RPS mandates or zero-emission credit programs). As hourly data becomes more prevalent, we plan to extend assurances to time-stamped features, positioning the SSS module as a leader in 24/7 energy matching.
+### Ongoing GHG Protocol Alignment and Enhancements (Annual Reviews Starting 2026)
+Incorporating WRI feedback and protocol updates, with extensions to hourly features for 24/7 matching.
 
 ## Benefits to Our Users
 
-By pursuing these attestations, we aim to deliver tangible value to energy buyers like you, simplifying your path to net zero while minimizing risks in reporting:
+Our attestations deliver value by simplifying net-zero pathways and minimizing reporting risks.
 
-* **Audit-Ready Outputs**: Our verified reports and datasets can be directly referenced in your Scope 2 audits, meeting GHG Protocol requirements for "credible third-party datasets." This reduces the scrutiny on your end, as auditors can rely on our independent assurances rather than re-verifying underlying data.
-* **Enhanced Compliance and Transparency**: Attested processes ensure your claims on SSS-embedded carbon-free energy (e.g., pro-rata shares of RPS RECs or nuclear credits) are robust and aligned with market-based accounting standards. This supports stakeholder confidence, especially in the face of increasing regulatory demands, such as SEC climate disclosures.
-* **Time and Cost Efficiency**: Outsource the heavy lifting of data validation and methodology adherence to us. With our attestations, your sustainability teams can focus on strategic goals, such as optimizing REC purchases or expanding granular tracking, without having to duplicate verification efforts.
+- **Audit-Ready Outputs**: Verified reports meet GHG Protocol criteria for credible datasets, allowing auditors to rely on our assurances.
+- **Enhanced Compliance and Transparency**: Robust claims for SSS-embedded energy, supporting stakeholder confidence amid regulations like SEC disclosures.
+- **Time and Cost Efficiency**: Outsource validation, freeing teams for strategic tasks like REC optimization.
+
+| Dimension | Verified (supplier-verified + third-party) | Public data-based |
+|---|---|---|
+| Assurance level | Limited/Reasonable under ISO 14064-3 or AA1000AS | None; self-verified |
+| Data testing | Sampling, recalculation, traceable audit trail | Desktop QA; no independent sampling |
+| Ownership attestation | Exclusive ownership/retirement attested; registry confirmations | Not guaranteed; potential residual mix conflicts |
+| Double-counting risk | Explicitly tested and mitigated | Higher; depends on public disclosures |
+| Uncertainty/materiality | Target ≤5–10% uncertainty; ~5% materiality threshold | Variable; can exceed thresholds |
+| Audit effort | Lower—auditors rely on our attestations | Higher—auditors re-perform checks |
+| Compliance readiness | Supports SBTi, RE100, SEC expectations | May be challenged/limited use |
+| Strategic value | Enables premium claims, green financing | Baseline compliance only |
+| Cost/effort | Higher fee, lower internal effort | Lower fee, higher internal effort |
+| Update cadence | Attestation-aligned, annual+ reviews | Public release cycles (lag risk) |
+
+### Practical Benefits of Verified Audit-Level Reports vs. Public Data-Based Reports
+Verified reports (using supplier-provided data with third-party assurance) offer advantages over public data-based reports (from sources like EIA Form 861 or EPA eGRID) in credibility, risk mitigation, and value.
+
+- **Credibility and Compliance**: Independent assurance ensures accuracy and standards compliance (e.g., SBTi); public data may lack verification, risking challenges.
+- **Risk Mitigation**: Minimizes misstatement risks; public data can introduce uncertainties like outdated information.
+- **Strategic Value**: Enables premium claims for investors or financing; public data supports basic compliance.
+- **Cost vs. Effort**: Public data is low-cost but intensive; verified reports streamline processes despite added expense.
+
+We recommend verified reports for high-stakes users to leverage our Granular Registry effectively.
+
+### Levels of Attestation and Rigor
+- **Public Data Reports**: Limited rigor; self-verified sources with basic attestation, higher error risk.
+- **Utility-Verified Reports**: High rigor; third-party independence, full testing, and exclusive ownership attestation for defensible claims.
+
+## Conclusion
+
+Through this strategy, Clean Incentive ensures the Granular Registry provides reliable, attested tools for Scope 2 reporting. Contact us for updates or customization.

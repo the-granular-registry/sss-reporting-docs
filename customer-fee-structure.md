@@ -17,39 +17,51 @@ Our simplified tiered freemium model minimizes barriers for entry while providin
 
 ### Our Tiered Pricing Model
 
-#### Free Tier: Explore Public Estimates
+#### Free Tier: Public Data Access
 
 **Cost: $0**\
 Ideal for initial assessments or users in early stages of sustainability reporting.\
 **Included Features**:
 
-* View and download public SSS estimates (retired RECs, SSEFs) for any supplier/state combination, derived from our transparent methodology using regulatory filings and certificate-tracking reports.
-* Basic pro-rata entitlement reports with uncertainty flags for transparency.
-* Access to our data catalogue for self-service insights.
+* **Free access to supplier emissions factors** based on public data for any supplier/state combination
+* View and download public SSS estimates (retired RECs, SSEFs) derived from our transparent methodology using regulatory filings and certificate-tracking reports
+* Basic pro-rata entitlement reports with uncertainty flags for transparency
+* Access to our data catalogue for self-service insights
 
-This tier offers a no-risk way to evaluate SSS impacts on your Scope 2 emissions. Upgrade for verified data and claims. (No API access or GC claiming.)
+This tier offers a no-risk way to evaluate SSS impacts on your Scope 2 emissions using publicly available data. Upgrade for verified data and claims. (No API access or GC claiming.)
 
-#### Verified Access Tier: Unlock Certified Data and Claims
+#### Verified Access Tier: Utility-Verified Reports
 
-**Cost: $10,000 flat annual subscription**\
-For buyers ready to integrate verified SSS attributes into reporting and claim GC allocations.\
+**Cost: $2,500 per utility verified report**\
+For buyers requiring certified data collected directly from utilities with attestation.\
 **Included Features** (All Free Tier benefits, plus):
 
-* Unlimited access to certified utility-submitted SSS data across all states/utilities, including REC retirements and SSEFs audited against public benchmarks.
-* API pulls for seamless integration into your Scope 2 tools or ESG platforms.
-* Ability to claim pro-rata GC allocations from onboarded utilities (e.g., enhanced RPS RECs), including hourly options where available—at no extra cost.
-* Annual QA/QC documentation for auditability.
+* **Per-report access** to certified utility-submitted SSS data, including REC retirements and SSEFs audited against public benchmarks
+* **Attestation documentation** for auditability and compliance
+* **Annual QA/QC documentation** for each verified report
+* Ability to claim pro-rata GC allocations from onboarded utilities (e.g., enhanced RPS RECs), including hourly options where available—at no extra cost
 
-If invited by a utility (e.g., via subaccount allocation), we'll waive any standard Registry account setup fees. This tier supports confident, granular claims without volumetric add-ons.
+If invited by a utility (e.g., via subaccount allocation), we'll waive any standard Registry account setup fees.
+
+#### Hourly Resolution Add-On
+
+**Cost: $1,500 per report** (applies to both public data reports and utility verified reports)\
+For buyers requiring hourly proxy data application to enhance granularity.\
+**Included Features**:
+
+* **Hourly proxy data application** to existing reports (public or verified)
+* **Enhanced temporal resolution** for more precise Scope 2 calculations
+* **Hourly GC claiming options** where available from utilities
+* **Documentation** supporting hourly allocation methodologies
 
 ### How It Works
 
-1. **Sign Up**: Register for the Free Tier instantly via our portal—no commitment required.
-2. **Explore Estimates**: View/download public data to assess your utilities' SSS.
-3. **Upgrade to Verified**: Subscribe annually to access certified data; if invited by a utility, claim GCs directly.
-4. **Integrate and Report**: Use APIs and reports for Scope 2 calculations, blending with your own contracts as needed.
-5. **Renew Annually**: Flat fee invoiced yearly, with easy upgrades or support for multi-utility setups.
+1. **Start Free**: Access supplier emissions factors and public data estimates instantly—no commitment required.
+2. **Request Verified Reports**: Order utility verified reports ($2,500 each) for certified data with attestation.
+3. **Add Hourly Resolution**: Enhance any report with hourly proxy data ($1,500 per report).
+4. **Integrate and Report**: Use reports for Scope 2 calculations, blending with your own contracts as needed.
+5. **Claim GCs**: If invited by utilities, claim pro-rata GC allocations directly at no extra cost.
 
 ### Ready to Enhance Your Scope 2 Claims?
 
-Whether you're blending SSS with PPAs or starting with estimates, our SSS module makes granular accounting straightforward. Join forward-thinking buyers relying on the Granular Registry for verifiable data. Contact our team at [sales@cleanincentive.com](mailto:sales@cleanincentive.com) or sign up today to begin with the Free Tier. Let's advance your sustainability goals—together.
+Whether you're starting with free public data or requiring verified utility reports with hourly resolution, our SSS module makes granular accounting straightforward. Join forward-thinking buyers relying on the Granular Registry for verifiable data. Contact our team at [sales@cleanincentive.com](mailto:sales@cleanincentive.com) or sign up today to begin with the Free Tier. Let's advance your sustainability goals—together.
