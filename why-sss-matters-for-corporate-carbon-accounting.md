@@ -28,14 +28,13 @@ SSS simplifies baseline accounting but demands rigorous documentation to substan
 
 ### Overview
 
-A hypothetical operator consumes 100,000 MWh/year. 40,000 MWh comes from a bundled wind PPA with RECs (zero-emission claims). The remaining 60,000 MWh is from CPS Energy Standard Supply Service (SSS), a regulated mix that is \~46% GHG‑free (≈28% nuclear, ≈18% renewables) with the balance natural gas and coal. Using public data, a supplier-specific emissions factor (SSEF) of \~0.27 tCO₂e/MWh[^1] is defensible for SSS, lower than ERCOT’s residual mix (\~0.48 tCO₂e/MWh). CPS’s RPS compliance and nuclear allocation avoid double counting for SSS customers under current Scope 2 rules.
+A hypothetical operator consumes 100,000 MWh/year. 40,000 MWh comes from a bundled wind PPA with RECs (zero-emission claims). The remaining 60,000 MWh is from CPS Energy Standard Supply Service (SSS), a regulated mix that is \~46% GHG-free (≈comprising \~28% nuclear and \~ ≈18% renewables), with the balance consisting of natural gas and coal. Using public data, a supplier-specific emissions factor (SSEF) of \~0.27 tCO₂e/MWh[^1] is defensible for SSS, lower than ERCOT’s residual mix (\~0.48 tCO₂e/MWh). CPS’s RPS compliance and nuclear allocation avoid double-counting for SSS customers under the current Scope 2 rules.
 
-Our platform supports three phases to progressively improve claims quality and reduce REC needs.
+Our platform supports three phases to improve claims quality and reduce REC needs progressively.
 
-### Phase one: Initial reporting
+### Phase one: Calculate SSEF from Public Sources
 
-* **Status quo (no SSS reporting)**: Default to ERCOT residual mix for the SSS portion.
-* **SSS reporting only**: Use a documented SSEF with public sources (e.g., EIA 861, CPS plans) for pro‑rata CFE credit.
+* **Improved SSEF**: Use a documented SSEF with public sources (e.g., EIA 861, CPS plans) for pro‑rata CFE credit.
 
 ### Phase two: Utility‑verified reporting
 
@@ -43,7 +42,7 @@ Our platform supports three phases to progressively improve claims quality and r
 
 ### Phase three: Tradable certificates for SSS CFE
 
-* Use our Granular Registry to issue EACs for the SSS clean share (nuclear/RPS). Claim zero for that share and treat the residual fossil separately. This reduces unbundled RECs needed to reach 0 market‑based Scope 2.
+* Use our Granular Registry to issue EACs for the SSS clean share (nuclear/RPS). Claim zero for that share and treat the residual fossil separately. This reduces the unbundled RECs needed to reach zero market‑based Scope 2.
 
 ### Comparison across phases (SSS portion = 60,000 MWh)
 
