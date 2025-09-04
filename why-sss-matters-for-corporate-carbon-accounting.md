@@ -20,47 +20,52 @@ SSS simplifies baseline accounting but demands rigorous documentation to substan
 
 ## How our platform helps
 
-- **Easy, audit-ready reports**: Centralized SSEFs, RPS retirements, utility attestations, and calculation logs—exportable in minutes.
-- **Save your team time**: We automate data collection (EIA 861, utility plans, attestations) and calculations, cutting manual effort and back-and-forth with auditors.
-- **Cheaper path to zero market-based Scope 2**: By crediting SSS CFE and optionally issuing EACs for SSS attributes, you purchase fewer unbundled RECs to reach 0 tCO₂e.
+* **Easy, audit-ready reports**: Centralized SSEFs, RPS retirements, utility attestations, and calculation logs—exportable in minutes.
+* **Save your team time**: We automate data collection (EIA 861, utility plans, attestations) and calculations, cutting manual effort and back-and-forth with auditors.
+* **Cheaper path to zero market-based Scope 2**: By crediting SSS CFE and optionally issuing EACs for SSS attributes, you purchase fewer unbundled RECs to reach 0 tCO₂e.
 
 ## Case study: Data center in CPS Energy territory (San Antonio, TX)
 
 ### Overview
-A hypothetical operator consumes 100,000 MWh/year. 40,000 MWh comes from a bundled wind PPA with RECs (zero-emission claims). The remaining 60,000 MWh is from CPS Energy Standard Supply Service (SSS), a regulated mix that is ~46% GHG‑free (≈28% nuclear, ≈18% renewables) with the balance natural gas and coal. Using public data, a supplier-specific emissions factor (SSEF) of ~0.27 tCO₂e/MWh[^ef-estimates] is defensible for SSS, lower than ERCOT’s residual mix (~0.48 tCO₂e/MWh)[^ef-estimates]. CPS’s RPS compliance and nuclear allocation avoid double counting for SSS customers under current Scope 2 rules.
+
+A hypothetical operator consumes 100,000 MWh/year. 40,000 MWh comes from a bundled wind PPA with RECs (zero-emission claims). The remaining 60,000 MWh is from CPS Energy Standard Supply Service (SSS), a regulated mix that is \~46% GHG‑free (≈28% nuclear, ≈18% renewables) with the balance natural gas and coal. Using public data, a supplier-specific emissions factor (SSEF) of \~0.27 tCO₂e/MWh[^1] is defensible for SSS, lower than ERCOT’s residual mix (\~0.48 tCO₂e/MWh). CPS’s RPS compliance and nuclear allocation avoid double counting for SSS customers under current Scope 2 rules.
 
 Our platform supports three phases to progressively improve claims quality and reduce REC needs.
 
 ### Phase one: Initial reporting
-- **Status quo (no SSS reporting)**: Default to ERCOT residual mix for the SSS portion.
-- **SSS reporting only**: Use a documented SSEF with public sources (e.g., EIA 861, CPS plans) for pro‑rata CFE credit.
+
+* **Status quo (no SSS reporting)**: Default to ERCOT residual mix for the SSS portion.
+* **SSS reporting only**: Use a documented SSEF with public sources (e.g., EIA 861, CPS plans) for pro‑rata CFE credit.
 
 ### Phase two: Utility‑verified reporting
-- Secure CPS attestations on REC retirements and nuclear allocation to SSS, achieving audit‑level rigor with the same emissions math.
+
+* Secure CPS attestations on REC retirements and nuclear allocation to SSS, achieving audit‑level rigor with the same emissions math.
 
 ### Phase three: Tradable certificates for SSS CFE
-- Use our Granular Registry to issue EACs for the SSS clean share (nuclear/RPS). Claim zero for that share and treat the residual fossil separately. This reduces unbundled RECs needed to reach 0 market‑based Scope 2.
+
+* Use our Granular Registry to issue EACs for the SSS clean share (nuclear/RPS). Claim zero for that share and treat the residual fossil separately. This reduces unbundled RECs needed to reach 0 market‑based Scope 2.
 
 ### Comparison across phases (SSS portion = 60,000 MWh)
 
-| Scenario | Description | Emissions Factor for SSS Portion (tCO₂e/MWh) | Emitting Portion (MWh) | Unbundled RECs Needed for 0 Scope 2 (MWh) | Total Scope 2 Emissions Without RECs (tCO₂e) |
-|----------|-------------|-----------------------------------------------|------------------------|------------------------------------------|---------------------------------------------|
-| **Status Quo: No SSS Reporting** (Phase One) | Use residual mix for full SSS; no CFE credits. | 0.48 | 60,000 | 60,000 | 28,800 |
-| **SSS Reporting Only** (Phase One with Improved EF) | Use SSEF crediting blended CFE; cannot split for partial zero. | 0.27 | 60,000 | 60,000 | 16,200 |
-| **Utility Verified Reporting** (Phase Two) | CPS-verified SSEF with attestation; audit-rigor enhances credibility but same math. | 0.27 | 60,000 | 60,000 | 16,200 |
-| **Tradable Certificates for All SSS Resources** (Phase Three) | Nuclear/RPS as EACs (zero for ~27,600 MWh); residual fossil at higher EF. | 0.50 (residual after EACs) | 32,400 | 32,400 | 16,200 |
+| Scenario                                                      | Description                                                                         | Emissions Factor for SSS Portion (tCO₂e/MWh) | Emitting Portion (MWh) | Unbundled RECs Needed for 0 Scope 2 (MWh) | Total Scope 2 Emissions Without RECs (tCO₂e) |
+| ------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------- | ---------------------- | ----------------------------------------- | -------------------------------------------- |
+| **No SSS Reporting** (Status Quo)                             | Use residual mix for full SSS; no CFE credits.                                      | 0.48                                         | 60,000                 | 60,000                                    | 28,800                                       |
+| <p><strong>SSS Reporting Only</strong> </p><p>(Phase One)</p> | Use SSEF crediting blended CFE; cannot split for partial zero.                      | 0.27                                         | 60,000                 | 60,000                                    | 16,200                                       |
+| **Utility Verified Reporting** (Phase Two)                    | CPS-verified SSEF with attestation; audit-rigor enhances credibility but same math. | 0.27                                         | 60,000                 | 60,000                                    | 16,200                                       |
+| **Tradable GCs for All SSS Resources** (Phase Three)          | Nuclear/RPS as EACs (zero for \~27,600 MWh); residual fossil at higher EF.          | 0.50 (residual after EACs)                   | 32,400                 | 32,400                                    | 16,200                                       |
 
 ### What this means for you
 
-- **Immediate reduction in reported emissions**: Moving from residual mix to SSEF reduces the SSS portion by ~43% (28,800 → 16,200 tCO₂e without RECs).
-- **Fewer RECs to buy**: With SSS EACs (Phase Three), only ~32,400 unbundled RECs are needed vs 60,000—a ~46% reduction.
-- **Lower cost to 0 market-based Scope 2**: At $4/MWh RECs, savings are roughly ~$110k per 60,000 MWh SSS load; larger fleets scale proportionally.
-- **Faster, cleaner audits**: Our exports include sources, attestations, calculation lineage, and versioned SSEFs for audit trails.
+* **Immediate reduction in reported emissions**: Moving from residual mix to SSEF reduces the SSS portion by \~43% (28,800 → 16,200 tCO₂e without RECs).
+* **Fewer RECs to buy**: With SSS EACs (Phase Three), only \~32,400 unbundled RECs are needed vs 60,000—a \~46% reduction.
+* **Lower cost to 0 market-based Scope 2**: At $4/MWh RECs, savings are roughly \~$110k per 60,000 MWh SSS load; larger fleets scale proportionally.
+* **Faster, cleaner audits**: Our exports include sources, attestations, calculation lineage, and versioned SSEFs for audit trails.
 
 ### Get started
-- Share your load data; we’ll generate a CPS‑specific SSEF with documentation in hours, not weeks.
-- Optionally engage CPS for verification via our standardized attestation workflow.
-- When ready, enable issuance of SSS EACs in our Granular Registry to minimize residual REC purchases.
-- Questions? Email info@granular-registry.com.
 
-[^ef-estimates]: Emissions factors shown (e.g., ~0.27 and ~0.48 tCO₂e/MWh; 0.50 residual after SSS EACs) are illustrative estimates based on public sources and standard calculations for the stated period. Actual values vary by year, data source, methodology, and verification status.
+* Share your load data; we’ll generate a CPS‑specific SSEF with documentation in hours, not weeks.
+* Optionally engage CPS for verification via our standardized attestation workflow.
+* When ready, enable issuance of SSS EACs in our Granular Registry to minimize residual REC purchases.
+* Questions? Email info@granular-registry.com.
+
+[^1]: Emissions factors shown (e.g., \~0.27 and \~0.48 tCO₂e/MWh; 0.50 residual after SSS EACs) are illustrative estimates based on public sources and standard calculations for the stated period. Actual values vary by year, data source, methodology, and verification status.
