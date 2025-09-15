@@ -10,49 +10,43 @@ The process emphasizes public data sources, multi-angle verification (e.g., cros
 
 ## Overall Process Overview
 
-The methodology follows a sequential workflow:
-
-1. Compile supplier-region pairs.
-2. Assign SSS categories.
-3. Compile data for ETL.
-4. Execute ETL and assess quality.
-5. Analyze gaps and formulate recommendations.
-6. Synthesize into a report and a presentation.
-
 Each step builds upon the previous one, incorporating verification tools (e.g., web searches, code execution for calculations) and addressing uncertainties through sensitivity analysis and alternative viewpoints.
 
-## Step 1: Compile List of Supplier-Region Pairs
-
-#### Purpose
+{% stepper %}
+{% step %}
+## Compile List of Supplier-Region Pairs
 
 Establish a foundational inventory of unique supplier-region pairs to define the assessment's scope, ensuring comprehensive global coverage while prioritizing regions with high emissions or data potential.
+{% endstep %}
 
-## Step 2: For Each Pair, Assign SSS Resource Categories
-
-#### Purpose
+{% step %}
+## Assign SSS Resource Categories
 
 Qualify pairs for SSS categories (Regulated Cost Recovery, Non-Bypassable Charges, Customer Funding) to filter for relevant data compilation, ensuring focus on viable SSS pathways per Scope 2 TWG proposals.
+{% endstep %}
 
-## Step 3: Compile Public Data Sources for ETL (Resource Mix, EAC Retirements, Sales Volume)
-
-#### Purpose
+{% step %}
+## Compile Public Data Sources for ETL (Resource Mix, EAC Retirements, Sales Volume)
 
 Gather structured public data for qualifying pairs to enable ETL, focusing on SSS-tied metrics for granular Scope 2 calculations.
+{% endstep %}
 
-## Step 4: Execute ETL Pipeline and Perform Data Quality Assessment for Qualifying Pairs
-
-#### Purpose
+{% step %}
+## Execute ETL Pipeline and Perform Data Quality Assessment
 
 Ingest data into a database and assess quality per Scope 2 criteria to ensure usability for SSS reporting.
+{% endstep %}
 
-## Step 5: Conduct Gap Analysis and Formulate Recommendations for SSS Reporting Enhancements
-
-#### Purpose
+{% step %}
+## Conduct Gap Analysis and Formulate Recommendations
 
 Identify gaps and recommend improvements to advance SSS in Scope 2 revisions.
+{% endstep %}
 
-## Step 6: Synthesize Findings into Final Report and Prepare Presentation for GHG Protocol Secretariat
-
-#### Purpose
+{% step %}
+## Synthesize Findings into Final Report
 
 Deliver synthesized insights for GHG Protocol Scope 2 updates.
+{% endstep %}
+{% endstepper %}
+
