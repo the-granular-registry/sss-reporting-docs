@@ -8,6 +8,16 @@
 
 ## methodologies
 
+* [Global Public Data Assessment](methodologies/global-public-data-assessment/README.md)
+  * [Step 1: Compile List of Supplier-Region Pairs](methodologies/global-public-data-assessment/step-1-compile-list-of-supplier-region-pairs.md)
+  * [Step 2: Assign SSS Resource Categories](methodologies/global-public-data-assessment/step-2-assign-sss-resource-categories.md)
+  * [Step 3: Compile Public Data Sources for ETL](methodologies/global-public-data-assessment/step-3-compile-public-data-sources-for-etl/README.md)
+    * [Instructions for Finding and Documenting Supplier Resource Mix](methodologies/global-public-data-assessment/step-3-compile-public-data-sources-for-etl/instructions-for-finding-and-documenting-supplier-resource-mix.md)
+    * [Instructions for Finding and Documenting Supplier EAC Retirements](methodologies/global-public-data-assessment/step-3-compile-public-data-sources-for-etl/instructions-for-finding-and-documenting-supplier-eac-retirements.md)
+    * [Instructions for Finding Supplier Sales Volume](methodologies/global-public-data-assessment/step-3-compile-public-data-sources-for-etl/instructions-for-finding-supplier-sales-volume.md)
+  * [Step 4: Execute ETL Pipeline and Perform Data Quality Assessment](methodologies/global-public-data-assessment/step-4-execute-etl-pipeline-and-perform-data-quality-assessment.md)
+  * [Step 5: Conduct Gap Analysis](methodologies/global-public-data-assessment/step-5-conduct-gap-analysis.md)
+  * [Step 6: Synthesize Findings into Final Report and Prepare Presentation](methodologies/global-public-data-assessment/step-6-synthesize-findings-into-final-report-and-prepare-presentation.md)
 * [Estimating SSS from Public Sources](methodologies/estimating-sss-from-public-sources.md)
 * [Calculating Verified SSS with Utility Data](methodologies/calculating-verified-sss-with-utility-data.md)
 * [US](methodologies/us/README.md)
